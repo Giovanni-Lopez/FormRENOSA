@@ -10,31 +10,51 @@
 
     <title>RENOSA</title>
   </head>
+ <style>
+    body {
+      padding: 40px; /* Espaciado alrededor de toda la página */
+      background-color: #eeeeee;
+      font-family: Arial, sans-serif;
+    }
+
+    table {
+      margin: 0 auto; /* Centrar la tabla horizontalmente */
+      border-collapse: collapse;
+      width: 80%; /* Ancho relativo con margen a los costados */
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;  
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: center;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    tr:hover {
+      background-color: #e0f7faad;
+    }
+  </style>
   <body>
-    <nav class="navbar navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand">
-      RENOSA
-    </a>
-    
-    <form class="d-flex">
-      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
+
+    <nav>
       
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
     
-    <div style="max-width: 1000px; margin: auto;">
+    <div style="max-width: 1000px; margin: auto">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="./img/logo.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="./img/logo.png" class="d-block w-100" alt="...">
+              <img src="./img/logo.png" class="d-block w-100" alt="...">              
             </div>
             <div class="carousel-item">
               <img src="./img/logo.png" class="d-block w-100" alt="...">
@@ -51,7 +71,18 @@
         </div>
       </div>
       
-
-
+  </nav>
+<nav>
+ <table>
+  <tr>
+    <td>MISION</td>
+    <td>VISION</td>
+  </tr>
+  <tr>
+    <td>Brindar soluciones confiables, innovadoras y agiles a las necesidades de repuestos para el transporte pesado y semi pesado</td>
+    <td>Ser un socio estrategico para la industria de transporte pesado y semi pesado en El Salvador</td>
+  </tr>
+</table>
+</nav>
   </body>
 </html>
